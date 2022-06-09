@@ -1,0 +1,522 @@
+/* Fonts */
+@font-face{
+    font-family: OpenSans;
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face{
+    font-family: OpenSansBold;
+    src: url('../fonts/OpenSans-Bold.ttf');
+}
+
+body{
+    font-family: OpenSans;
+}
+/* Fonts */
+
+
+/* ***** Header Start ***** */
+#headerback{
+    background-image: url('../images/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding: 235px 0;
+}
+
+/* Navigation Start */
+#topnav{
+    background-color: #383E4C;
+}
+
+#navcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+#navigation ul li{
+    padding: 10px;
+}
+
+#navigation ul li a{
+    padding: 15px 25px;
+    font-size: 20px;
+    color: white;
+    border: 1px solid #646d7c;
+    transition: .3s ease-in;
+}
+
+.navbar-inverse .navbar-nav .active a{
+    background-color: #49505F !important;
+}
+
+.navbar-inverse .navbar-nav li a:hover{
+    background-color: #49505F;
+}
+
+/* Navigation End */
+
+
+/* Site Title Start */
+#titlecolumn h1{
+    font-size: 70px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#titlecolumn h4{
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 1px #333;
+}
+/* Site Title End */
+
+/* ***** Header End ***** */
+
+
+/* ***** About Us Container Start ***** */
+#aboutus{
+    padding-top: 70px;
+}
+
+/* About Us Inside Div Start */
+.aboutusinsidediv{
+    background-color: #f2f2f2;
+    padding-bottom: 40px;
+}
+
+.aboutusinsidediv h3{
+    font-size: 20px !important;
+    font-weight: bold !important;
+    padding: 0 20px !important;
+}
+
+.aboutusinsidediv p{
+    font-size: 14px;
+    color: #333;
+    padding: 0 20px 35px;
+}
+
+.aboutusinsidediv a:first-of-type{
+    background-color: #178A27;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    width: 50%;
+    text-align: center;
+    transition: .5s ease-in;
+}
+
+.aboutusinsidediv a:first-of-type:hover{
+    background-color: #449D44;
+}
+
+.aboutusinsidediv #aboutussecondbutton{
+    background-color: #1686C1;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    width: 50%;
+    text-align: center;
+    transition: .5s ease-in;
+}
+
+.aboutusinsidediv #aboutussecondbutton:hover{
+    background-color: #31B0D5;
+}
+
+.aboutusinsidediv #aboutusthirdbutton{
+    background-color: #852406;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    width: 50%;
+    text-align: center;
+    transition: .5s ease-in;
+}
+
+.aboutusinsidediv #aboutusthirdbutton:hover{
+    background-color: #C9302C;
+}
+/* About Us Inside Div End */
+
+
+/* *** About Us Second Row Start *** */
+#aboutussecondrow{
+    padding-top: 60px;
+}
+
+/* Two Column Inside Div Start */
+.twocolumninsidediv{
+    background-color: #f2f2f2;
+    padding-bottom: 25px;
+    overflow: hidden;
+}
+
+.twocolumninsidediv h3{
+    font-size: 20px;
+    color: #666;
+    font-weight: bold;
+}
+
+.twocolumninsidediv p{
+    font-size: 14px;
+    color: #333;
+    padding: 0 27px;
+    margin-top: 30px;
+}
+
+.twocolumninsidediv a{
+    background-color: white;
+    color: #666;
+    font-size: 18px;
+    padding: 10px 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 5px;
+    transition: .5s ease-in;
+}
+/* Two Column Inside Div End */
+
+/* *** About Us Second Row End *** */
+
+/* ***** About Us Container End ***** */
+
+
+/* ***** Our Services Background Container Start ***** */
+#services{
+    margin-top: 70px;
+    padding-top: 65px;
+    padding-bottom: 85px;
+    background-image: url('../images/bg-2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center top;
+}
+
+#servicescontainer h2{
+    font-size: 36px;
+    color: white;
+    text-shadow: 2px 2px #aaa;
+    margin-bottom: 20px;
+}
+
+#servicescontainer p{
+    font-size: 18px;
+    color: white;
+    width: 65%;
+    line-height: 1.6em;
+}
+/* ***** Our Services Background Container End ***** */
+
+
+/* ***** Four Column Container Start ***** */
+#fourcolumncontainer{
+    margin-top: 60px;
+}
+
+/* Four Column Inside Div Start */
+.fourcolumninsidediv{
+    background-color: #f2f2f2;
+    height: 500px;
+}
+
+.fourcolumninsidediv h3{
+    font-size: 20px;
+    color: #666;
+    font-weight: bold;
+}
+
+.fourcolumninsidediv p{
+    font-size: 14px;
+    color: #333;
+    padding: 10px 20px;
+    line-height: 1.6em;
+}
+
+.fourcolumninsidediv a{
+    width: 50%;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-top: 15px;
+    transition: .5s ease-in;
+}
+/* Four Column Inside Div End */
+
+/* ***** Four Column Container End ***** */
+
+
+/* ***** One Big Column Container Start ***** */
+#onebigcolumncontainer{
+    margin-top: 30px;
+}
+
+/* One Big Column Inside Div Start */
+.onebigcolumninsidediv{
+    background-color: #f2f2f2;
+    padding-bottom: 30px;
+}
+
+.onebigcolumninsidediv h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #666;
+}
+
+.onebigcolumninsidediv p{
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 1.6em;
+}
+
+.onebigcolumninsidediv a{
+    font-size: 18px;
+    padding: 10px 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-top: 15px;
+    transition: .5s ease-in;
+}
+/* One Big Column Inside Div End */
+
+/* ***** One Big Column Container End ***** */
+
+
+/* ***** Contact Us Background Container Start ***** */
+#contact{
+    margin-top: 70px;
+    padding: 80px 0 60px;
+    background-image: url('../images/bg-3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: top center;
+}
+
+/* Contact Title Row Start */
+#contacttitlerow h2{
+    font-size: 36px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #333;
+}
+
+#contacttitlerow p{
+    background-color: rgba(242,242,242,0.4);
+    padding: 20px 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+    width: 60%;
+    line-height: 1.6em;
+}
+/* Contact Title Row End */
+
+
+/* Forms Row Start */
+#formsrow{
+    width: 62.5%;
+}
+
+#formsrow input{
+    background-color: rgba(242,242,242,0.4);
+    border: none;
+    padding: 6px 12px;
+    margin-bottom: 15px;
+}
+
+#formsrow ::placeholder{
+    color: black;
+}
+
+#formsrow textarea{
+    background-color: rgba(242,242,242,0.4);
+    border: transparent;
+    margin-bottom: 20px;
+}
+
+#formsrow input[type=submit]{
+    background-color: #262628;
+    padding: 10px 30px;
+    color: white;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: .5s ease-in;
+}
+
+#formsrow input[type=submit]:hover{
+    background-color: white;
+    border:1px solid #262628;
+    color: #262628;
+}
+/* Forms Row End */
+
+/* ***** Contact Us Background Container End ***** */
+
+
+/* ***** Footer Background Container Start ***** */
+#footerrow{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #eee;
+}
+
+#footerrow h2{
+    font-size: 32px;
+    color: #666;
+    font-style: italic;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+#footerrow p{
+    color: #999;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+/* Copyright Row Start */
+#copyrightrow p{
+    font-size: 12px;
+    color: #666;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/* Copyright Row End */
+
+/* ***** Footer Background Container End ***** */
+
+
+/* Scroll to Top Button */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+  }
+  
+/* Scroll to Top Button */
+
+
+@media only screen and (max-width:580px){
+
+    /* ***** Header Start ***** */
+    #headerback{
+        padding: 200px 0 50px;
+    }
+
+    #navcontainer{
+        display: inherit;
+    }
+
+    #topnav{
+        background-color: transparent;
+        border: transparent;
+    }
+
+    #navtoggle{
+        background-color: black;
+    }
+
+    #navigation{
+        border: none;
+    }
+
+    #navigation ul li{
+        padding: 0;
+        background-color: #383E4C;
+    }
+    #navigation ul li a{
+        font-size: 14px;
+        padding: 5px 0;
+        text-align: center;
+    }
+    /* ***** Header End ***** */
+
+
+    /* ***** About Us Container Start ***** */
+    #aboutus .col-sm-4{
+        margin-bottom: 30px;
+    }
+
+    .aboutusinsidediv h3{
+        text-align: center;
+    }
+
+    .aboutusinsidediv p{
+        text-align: center;
+    }
+
+
+    /* About Us Second Row Start */
+    #aboutussecondrow .col-sm-6{
+        margin-bottom: 30px;
+    }
+
+    .twocolumninsidediv p{
+        text-align: center;
+    }
+    /* About Us Second Row End */
+
+    /* ***** About Us Container End ***** */
+
+
+    /* ***** Services Container Start ***** */
+    #services p{
+        width: 100%;
+    }
+    /* ***** Services Container End ***** */
+
+
+    /* ***** Four Column Container Start ***** */
+    #fourcolumncontainer .col-sm-3{
+        width: 50%;
+        float: left;
+        margin-bottom: 30px;
+    }
+
+    .fourcolumninsidediv a{
+        padding: 10px 10px;
+    }
+    /* ***** Four Column Container End ***** */
+
+
+    /* ***** Contact Container Start ***** */
+    #contacttitlerow p{
+        width: 100%;
+    }
+
+    #formsrow{
+        width: 100%;
+    }
+
+    #formsrow .col-sm-6{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* ***** Contact Container End ***** */
+}
